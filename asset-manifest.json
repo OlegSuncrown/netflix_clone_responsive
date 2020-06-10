@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/netflix_clone_responsive/static/css/main.e82c1514.chunk.css",
-    "main.js": "/netflix_clone_responsive/static/js/main.ac99bdaa.chunk.js",
-    "main.js.map": "/netflix_clone_responsive/static/js/main.ac99bdaa.chunk.js.map",
+    "main.js": "/netflix_clone_responsive/static/js/main.27f487d6.chunk.js",
+    "main.js.map": "/netflix_clone_responsive/static/js/main.27f487d6.chunk.js.map",
     "runtime-main.js": "/netflix_clone_responsive/static/js/runtime-main.d38947dc.js",
     "runtime-main.js.map": "/netflix_clone_responsive/static/js/runtime-main.d38947dc.js.map",
     "static/css/2.af3c1da9.chunk.css": "/netflix_clone_responsive/static/css/2.af3c1da9.chunk.css",
     "static/js/2.58440291.chunk.js": "/netflix_clone_responsive/static/js/2.58440291.chunk.js",
     "static/js/2.58440291.chunk.js.map": "/netflix_clone_responsive/static/js/2.58440291.chunk.js.map",
     "index.html": "/netflix_clone_responsive/index.html",
-    "precache-manifest.261d0237291627ffc427d40faa75ac0c.js": "/netflix_clone_responsive/precache-manifest.261d0237291627ffc427d40faa75ac0c.js",
+    "precache-manifest.118b37fcd2a0a3e9ac3f0bab87d03665.js": "/netflix_clone_responsive/precache-manifest.118b37fcd2a0a3e9ac3f0bab87d03665.js",
     "service-worker.js": "/netflix_clone_responsive/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/netflix_clone_responsive/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.e82c1514.chunk.css.map": "/netflix_clone_responsive/static/css/main.e82c1514.chunk.css.map",
@@ -26,6 +26,6 @@
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.58440291.chunk.js",
     "static/css/main.e82c1514.chunk.css",
-    "static/js/main.ac99bdaa.chunk.js"
+    "static/js/main.27f487d6.chunk.js"
   ]
 }
