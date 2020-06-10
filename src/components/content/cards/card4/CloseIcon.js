@@ -5,12 +5,12 @@ function CloseIcon(props) {
   const svgVariants = {
     opened: {
       rotate: 45,
-      scale: 1.5,
+      scale: 1.2,
      
     },
     closed: {
       rotate: 0,
-      scale: 1.5,
+      scale: 1.2,
     }
   }
   return (
@@ -20,7 +20,6 @@ function CloseIcon(props) {
         variants={svgVariants}
         animate={props.isOpen ? "opened" : "closed"}
         
-
         className="svg-icon"
           width="24"
           height="24"
