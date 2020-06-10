@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8dd6472ade084ea68f4dbbbd31d14959",
+    "revision": "9a129a40f1f37fcdca1e9a4037ad636a",
     "url": "/netflix_clone_responsive/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/netflix_clone_responsive/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "2f2df1cfbe4f6d25dd2a",
+    "revision": "75c85efefd371142b59e",
     "url": "/netflix_clone_responsive/static/css/main.e82c1514.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/netflix_clone_responsive/static/js/2.58440291.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2f2df1cfbe4f6d25dd2a",
-    "url": "/netflix_clone_responsive/static/js/main.8f9c772f.chunk.js"
+    "revision": "75c85efefd371142b59e",
+    "url": "/netflix_clone_responsive/static/js/main.ac99bdaa.chunk.js"
   },
   {
     "revision": "81f297b0ede370c331bf",
