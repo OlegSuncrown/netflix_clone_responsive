@@ -31,7 +31,7 @@ function FaqList({item, openFAQ}) {
         variants={bottomBorderVariants}
         animate={item.isOpened ? "opened" : "closed"}
         className="faq-list__title p-2 py-3 px-4  w-100 h-100 d-inline-flex justify-content-between align-items-center">
-          <p className="text-left p-0 m-0">{item.title}</p>
+          <p className="text-left p-0 m-0 user-select-none">{item.title}</p>
           <CloseIcon openFAQ={openFAQ} id={item.id} isOpen={item.isOpened}/>
       </motion.div>
   

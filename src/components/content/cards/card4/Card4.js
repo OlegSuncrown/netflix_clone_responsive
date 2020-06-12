@@ -7,24 +7,34 @@ import {myData} from './Data'
 
 function Card4() {
   const [data, setData] = useState(myData)
-
+  
   const openFAQ = (id) => {
-    //this is our selected item
-    const obj = data.find((item) => item.id === id)
-    obj.isOpened = !obj.isOpened
-    //set all items to false (closed)
     const newData1 = data.map((item) => {
+        if(item.id === id){
+          return {...item, isOpened: !item.isOpened}
+        }
         return {...item, isOpened: false}
       })
-    //set our current menu item to opened or closed
-    const newData2 = newData1.map((item) => {
-      if(item.id === obj.id){
-        item.isOpened = obj.isOpened
-      } 
-      return item
-    })
-    setData(newData2)
+ 
+    setData(newData1)
   }
+  // const openFAQ = (id) => {
+  //   //this is our selected item
+  //   const obj = data.find((item) => item.id === id)
+  //   obj.isOpened = !obj.isOpened
+  //   //set all items to false (closed)
+  //   const newData1 = data.map((item) => {
+  //       return {...item, isOpened: false}
+  //     })
+  //   //set our current menu item to opened or closed
+  //   const newData2 = newData1.map((item) => {
+  //     if(item.id === obj.id){
+  //       item.isOpened = obj.isOpened
+  //     } 
+  //     return item
+  //   })
+  //   setData(newData2)
+  // }
   return (
     <CardBlock>
       <div className="container-fluid p-0">
